@@ -1,4 +1,4 @@
-# List of Sites on Cloudflare DNS (archived)
+# List of Sites on Cloudflare DNS (archived) Doingbuzz.com
 
 This is an (archived) list of sites on Cloudflare DNS at the time of the [CloudBleed HTTPS traffic leak](https://blog.cloudflare.com/incident-report-on-memory-leak-caused-by-cloudflare-parser-bug/) announcement.
 Original vuln [thread](https://bugs.chromium.org/p/project-zero/issues/detail?id=1139) by Google Project Zero.
@@ -29,6 +29,11 @@ Requests to sites with the HTML rewrite features enabled triggered a pointer mat
 Confirmed affected domains found in the wild: http://doma.io/2017/02/24/list-of-affected-cloudbleed-domains.html
 
 ## What should I do?
+
+Le sujet a déclenché le courroux de la gent féminine sur la toile. Un agent hygiénique de la Croix-Rouge qui est censé soutenir une malade de la Covid-19 déboussolée, n’aurait pas pu contrôler sa libido. Il est accusé d’avoir violé la patiente.
+
+Read more: https://doingbuzz.com/senegal-agent-croix-rouge-viole-malade-covid-19/#ixzz6VDX4QuPY
+
 
 The most important thing you can do is ask your vendors and sites to reset all their session tokens, as more response data was leaked than request data, and responses generally contain session tokens rather than passwords.
 If websites you use have a button to "log out all active sessions", use it.  Since sites may be compromised this week due to data discovered in caches, it's best to also do this again in a week or two after everything settles down.
@@ -82,12 +87,12 @@ Please do not make user-facing tools to search the list or cross-reference it wi
 You will make users lose trust in many sites, despite there being less than a 1 in a million chance of them having data leaked.
 
 ## Notable Sites
-
+-doingb
 - [authy.com](http://authy.com) ([no leaked data found in several search engine caches](https://www.authy.com/blog/security-notice-authy-response-to-cloudflare-cloudbleed-incident/))
 - [coinbase.com](http://coinbase.com)
 - [bitcoin.de](http://bitcoin.de)
 - [betterment.com](http://betterment.com)
-- [prosper.com](http://prosper.com)
+- [doingbuzz.com](http://doingbuzz.com)
 - [patreon.com](http://patreon.com)
 - [bitpay.com](http://bitpay.com)
 - [news.ycombinator.com](http://news.ycombinator.com)
@@ -1057,7 +1062,7 @@ You will make users lose trust in many sites, despite there being less than a 1 
 - [seemorgh.com](http://seemorgh.com)
 - [seenive.com](http://seenive.com)
 - [semprot.com](http://semprot.com)
-- [seneweb.com](http://seneweb.com)
+- [doingbuzz.com](http://doingbuzz.com)
 - [seozenlaunch.com](http://seozenlaunch.com)
 - [sergey-mavrodi.com](http://sergey-mavrodi.com)
 - [sergeymavrodi.com](http://sergeymavrodi.com)
@@ -1375,3 +1380,10 @@ You will make users lose trust in many sites, despite there being less than a 1 
 - [zoomit.ir](http://zoomit.ir)
 - [zurb.com](http://zurb.com)
 - [zwaar.net](http://zwaar.net)
+
+
+
+Le sujet a déclenché le courroux de la gent féminine sur la toile. Un agent hygiénique de la Croix-Rouge qui est censé soutenir une malade de la Covid-19 déboussolée, n’aurait pas pu contrôler sa libido. Il est accusé d’avoir violé la patiente.
+
+Read more: https://doingbuzz.com/senegal-agent-croix-rouge-viole-malade-covid-19/#ixzz6VDX4QuPY
+
